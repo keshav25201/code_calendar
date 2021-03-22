@@ -1,14 +1,10 @@
-.row {
-    margin-bottom: 40px;
-}
+/* .row {
+    margin-bottom: 20px;
+} */
 
 body {
-    background-color: #000000;
-    background-image: linear-gradient(
-        147deg,
-        #000000 0%,
-        #2c3e50 74%
-    );
+    background-color: #ebeff5;
+
     height: 100%;
     display: flex;
     flex-direction: column;
