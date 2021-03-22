@@ -40,6 +40,8 @@ def make_api_calls():
 
 def home(request):
     today, tomorrow = make_api_calls()
+    # if not (today) and not (tomorrow):
+    # return render(request, "Kode_calendar/all.html")
     context = {"today": today, "tomorrow": tomorrow}
     return render(request, "Kode_calendar/home.html", context)
 
