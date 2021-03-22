@@ -6,3 +6,8 @@ from django.http import HttpResponse
 def home(request):
     context = {}
     return render(request, "Kode_calendar/main.html", context)
+
+
+def all(request):
+    context = {}
+    return render(request, "Kode_calendar/all.html", context)
