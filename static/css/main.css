@@ -1,9 +1,14 @@
-nav {
-    margin-bottom: 20px;
-}
-.row {
+/* .row {
     margin-bottom: 40px;
-}
+} */
+
 body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: black;
+}
+
+.not_footer {
+    flex: 1 0 auto;
 }
