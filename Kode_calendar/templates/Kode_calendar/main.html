@@ -4,7 +4,8 @@
     <head>
         <title>kode_calendar</title>
         {% load static %}
-
+        {% block styles%}
+        {%endblock%}
         <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -16,7 +17,6 @@
     <body>
         <div class="not_footer">
             {% include 'Kode_calendar/navbar.html' %}
-            {% include 'Kode_calendar/cards.html' %}
             <div class="container-fluid">
                 {% block content %}
 
